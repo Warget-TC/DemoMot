@@ -1,0 +1,119 @@
+html, body {height: 100%}
+
+
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+
+
+.yas > span{
+    display: inline-block;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.yas:hover > span:before{
+    content: '\2605';
+    position: absolute;
+}
+
+.yas > span:hover ~ span:before{
+    content: '';
+}
+
+.Footer {
+    padding: 24px;
+    padding: 1.5rem;
+    background: #404040;
+    color: #999;
+    font-size: .85em;
+    text-align: center;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+p{
+     font-size: 100px;
+    color: black;
+}
+
+.about{
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+#imgcss{
+    display: block;
+    margin: 0 auto;
+}
+
+#backtotop
+{
+    color: #f5f5f5;
+    font-style: italic;
+    font-size: 12px;
+}
+.ui.button {
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #ffffff;
+    outline-color: red;
+    border-style: ridge    ;
+
+}
+
+.color{
+  color: red;
+}
+
+h3 {
+    color: red;
+    font-weight: inherit;
+    font-style: italic;
+}
+
+#Profil{
+    color: deeppink;
+}
+
+.profils {
+    color: deeppink;
+    font-weight: 800;
+    font-family: Comic Sans, Comic Sans MS, cursive	;
+}
+
+#purple {
+    color: snow;
+}
+#grand{
+    color: deeppink;
+    font-weight: 800;
+    font-family: Comic Sans, Comic Sans MS, cursive	;
+    font-size: 20px; /* Paragraphes de 14 pixels */
+
+}
+
+#table{
+    text-align: center;
+}
+.marge {
+    margin-left: 5em;
+}
+
+td {
+    font-size: 13px;
+}
+
